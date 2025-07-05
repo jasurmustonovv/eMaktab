@@ -1,67 +1,67 @@
-body{
+body {
     background-color: rgb(238, 236, 233);
+    overflow-y: 0;
 }
-.box_01{
+.box_01 {
     width: 101%;
-    height:100px;
+    height: 100px;
     background-color: white;
     margin-left: -7px;
     margin-top: -7px;
 }
-.box_01 img{
+.box_01 img {
     margin-left: 270px;
     margin-top: 25px;
     cursor: pointer;
 }
 
-.box_01 li{
+.box_01 li {
     list-style: none;
     display: inline-block;
     transition: all 0.1s ease-in;
 }
 
-.box_01 ul li{
+.box_01 ul li {
     margin-left: 30px;
 }
 
-.box_01 .navbar{
+.box_01 .navbar {
     margin-left: 425px;
     margin-top: -47px;
 }
-.box_01 .navbar a{
+.box_01 .navbar a {
     color: gray;
     text-decoration: none;
     font-family: sans-serif;
 }
-.box_01 select{
+.box_01 select {
     border: none;
     font-size: 17px;
     font-family: sans-serif;
     color: #5dbfd5;
     margin-left: 30px;
 }
-.box_01 select:hover{
+.box_01 select:hover {
     background-color: rgb(250, 249, 249);
 }
-.box_01 .btn_01{
+.box_01 .btn_01 {
     width: 80px;
     height: 37px;
     border-radius: 7px;
     border: none;
     background-color: white;
-    border: 2px solid #00BAE5;
+    border: 2px solid #00bae5;
     font-family: sans-serif;
     font-size: 15px;
-    color: #00BAE5;
+    color: #00bae5;
     transition: all 0.1s ease-in;
-
 }
-.btn_01:hover{
+.btn_01:hover {
     cursor: pointer;
     color: white;
-    background: #00BAE5;
+    background: #00bae5;
 }
-.box_01 .btn_02{
+.box_01 .btn_02 {
     font-family: sans-serif;
     font-size: 15px;
     margin-left: 4px;
@@ -70,41 +70,41 @@ body{
     border-radius: 7px;
     border: none;
     background-color: white;
-    border: 2px solid #19B47B;
-    color: #19B47B;
+    border: 2px solid #19b47b;
+    color: #19b47b;
     transition: all 0.1s ease-in;
 }
-.btn_02:hover{
+.btn_02:hover {
     cursor: pointer;
     color: white;
-    background: #19B47B;
+    background: #19b47b;
 }
 /*/BOX_01*/
 /*BOX_02*/
-.box_02{
+.box_02 {
     width: 980px;
     height: 470px;
     background-color: white;
     margin-left: 260px;
     margin-top: 25px;
 }
-.box__02{
+.box__02 {
     width: 100%;
     height: 85px;
-    background-color: #34438F;
+    background-color: #34438f;
     margin-top: 30px;
 }
-.inputs{
+.inputs {
     margin-left: 30px;
     font-family: sans-serif;
 }
-.inputs input{
-    background-color: #FAFAFA;
+.inputs input {
+    background-color: #fafafa;
     width: 380px;
     height: 40px;
     border: 1px solid #aca7a7;
 }
-.inputs button{
+.inputs button {
     margin-top: 20px;
     font-size: 17px;
     font-family: sans-serif;
@@ -113,11 +113,10 @@ body{
     border-radius: 7px;
     border: none;
     color: white;
-    background-color: #96C944;
+    background-color: #96c944;
     transition: all 0.2s ease-in;
 }
-.inputs button:hover{
-    
+.inputs button:hover {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
@@ -130,14 +129,14 @@ body{
     background-color: #8ab742;
 }
 /* BOX_02*/
-.box__02 h1{
-    margin-left:25px;
+.box__02 h1 {
+    margin-left: 25px;
     color: white;
     font-family: sans-serif;
     margin-top: 25px;
     position: absolute;
 }
-.box__02 a{
+.box__02 a {
     margin-left: 700px;
     color: white;
     margin-top: 30px;
@@ -145,45 +144,44 @@ body{
     position: absolute;
 }
 
-.box__03{
+.box__03 {
     width: 100%;
     height: 70px;
     background-color: rgb(244, 244, 244);
     margin-bottom: 50px;
     margin-top: 43px;
 }
-.box__03 svg{
+.box__03 svg {
     width: 25px;
     height: 25px;
     margin-left: 20px;
     margin-top: 20px;
 }
-.box__03 p{
+.box__03 p {
     margin-left: 50px;
     font-family: sans-serif;
     margin-top: -25px;
-  
 }
-.box__03 p a{
+.box__03 p a {
     color: black;
     transition: all 0.1s ease-in-out;
 }
-.box__03 p a:hover{
-    color: #19B461;
+.box__03 p a:hover {
+    color: #19b461;
 }
 
 /*/ BOX_02*/
-.box_04{
-        position: relative;
-        margin: 0 auto;
-        top: 70px;
-        left: -8px;
-        width: 101%;
-        height: 300px;
-        background-color: #242323;
-    }
+.box_04 {
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    left: -8px;
+    width: 101%;
+    height: 300px;
+    background-color: #242323;
+}
 
-.box_04 nav .ul1 li{
+.box_04 nav .ul1 li {
     color: white;
     list-style: none;
     font-family: sans-serif;
@@ -196,25 +194,23 @@ body{
     top: 23px;
     position: relative;
 }
-.box_04 nav .ul1 li h3{
+.box_04 nav .ul1 li h3 {
     color: white;
-
 }
-.box_04 nav .ul1 li svg{
+.box_04 nav .ul1 li svg {
     top: 8px;
     position: relative;
     width: 23px;
     margin-left: 4px;
-    
 }
-.li5{
+.li5 {
     position: relative;
     left: -4px;
 }
-nav{
+nav {
     display: flex;
 }
-.ul2 li{
+.ul2 li {
     color: white;
     list-style: none;
     font-family: sans-serif;
@@ -227,11 +223,11 @@ nav{
     top: 23px;
     position: relative;
 }
-.ul2 h3{
+.ul2 h3 {
     color: white;
 }
 
-.ul3{
+.ul3 {
     color: white;
     list-style: none;
     font-family: sans-serif;
@@ -244,35 +240,35 @@ nav{
     top: 23px;
     position: relative;
 }
-.ul3 h3{
+.ul3 h3 {
     color: white;
 }
-.ul4{
+.ul4 {
     color: white;
     list-style: none;
     font-family: sans-serif;
     font-weight: lighter;
     line-height: 20px;
     font-weight: 100;
-    color:#19B461;
+    color: #19b461;
     font-size: 14px;
     margin-left: 80px;
     top: 25px;
     position: relative;
     transition: all 0.2s ease-out;
 }
-.ul4 .li1:hover{
+.ul4 .li1:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-.ul4 h3{
+.ul4 h3 {
     color: white;
 }
-.ul4 button{
+.ul4 button {
     width: 220px;
     height: 35px;
     background-color: rgba(255, 255, 255, 0);
-    color: #19B461;
+    color: #19b461;
     border: none;
     font-size: medium;
     border: 2px solid #1cc26a;
@@ -281,12 +277,12 @@ nav{
     position: relative;
     transition: all 0.1s ease-in-out;
 }
-.ul4 button:hover{
+.ul4 button:hover {
     cursor: pointer;
-    background-color:#19B461;
+    background-color: #19b461;
     color: white;
 }
-.box_05{
+.box_05 {
     position: relative;
     margin: 0 auto;
     top: 70px;
@@ -294,9 +290,8 @@ nav{
     width: 101%;
     height: 70px;
     background-color: rgb(19, 18, 18);
-   
 }
-span{
+span {
     color: #9a9a9a;
     font-family: sans-serif;
     left: 300px;
@@ -305,14 +300,14 @@ span{
     position: relative;
     transition: all 0.2s ease-in-out;
 }
-span:hover{
-    color: #19B461;
+span:hover {
+    color: #19b461;
     cursor: pointer;
 }
-.box_04 li:hover{
-    color: #19B461;
+.box_04 li:hover {
+    color: #19b461;
     cursor: pointer;
 }
-h3{
-    cursor:auto;
+h3 {
+    cursor: auto;
 }
